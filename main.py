@@ -1,4 +1,4 @@
-from PIL import Image
+ from PIL import Image
 import os
 
 def pngs_to_pdfs(pasta_imagens, pasta_pdf_saida):
@@ -22,7 +22,7 @@ def pngs_to_pdfs(pasta_imagens, pasta_pdf_saida):
             img_rgb.save(caminho_pdf_saida)
 
 
-pasta_imagens = r'C:\Users\Nicolas Rock\Desktop\PNG2PDF Converte\img'  
-pasta_pdf_saida = r'C:\Users\Nicolas Rock\Desktop\PNG2PDF Converte\pdf'  
+pasta_imagens = r'C:\Users\Desktop\PNG2PDF Converte\img'  
+pasta_pdf_saida = r'C:\Users\Desktop\PNG2PDF Converte\pdf'  
 
 pngs_to_pdfs(pasta_imagens, pasta_pdf_saida)
